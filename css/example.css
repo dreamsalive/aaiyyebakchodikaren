@@ -1,0 +1,109 @@
+.one {
+height: 100%;
+width: 100%;
+background-color: green;
+border: 5px solid white;
+}
+
+.vertical {
+            border-left: 6px solid white;
+            height: 100%;
+            position:absolute;
+            left: 50%;
+        }
+
+#circlecenter {
+    background: transparent;
+    border-radius: 50%;
+    width: 15%;
+    height: 30%;
+    position:relative;
+    left:41.5%;
+    top:33%;
+border: 5px solid white;
+
+}
+
+#circleleft {
+    background: green;
+    border-radius: 50%;
+    width: 15%;
+    height: 30%;
+    position:relative;
+    left:0%;
+    top:3%;
+	border: 5px solid white;
+}
+	
+#circleright {
+    background: transparent;
+    border-radius: 50%;
+    width: 15%;
+    height: 30%;
+    position:relative;
+    right:-84%;
+    top:-27%;
+    border:5px solid white;
+}
+
+#biggerleftbox {
+  background-color:green ;
+  border: 5px solid white;
+  width: 10%;
+  height: 45%;
+  position:relative;
+  left:-0.4%;
+  top:-65%;
+}
+#smallleftbox {
+  background-color:green ;
+  border: 5px solid white;
+  width: 5%;
+  height: 15%;
+  position:relative;
+  left:-0.4%;
+  top:-98%;
+}
+#biggerrightbox{
+  background-color:green ;
+  border: 5px solid white;
+  width: 10%;
+  height: 45%;
+  position:relative;
+  left:89.5%;
+  top:-128%;
+}
+#smallrightbox{
+  background-color:green ;
+  border: 5px solid white;
+  width: 5%;
+  height: 15%;
+  position:relative;
+  left:94.5%;
+  top:-161%;
+}
+#playerone{
+  position:relative;
+  left:11.5%;
+  top:-141%;
+}
+#playertwo{
+  position:relative;
+  left:11.5%;
+  top:-235%;
+}
+#playerthree{
+  position:relative;
+  left:23.5%;
+  top:-215%;
+}
+#playerfour{
+  position:relative;
+  left:33.5%;
+  top:-200%;
+}
+#playerfive{
+  position:relative;
+  left:33.5%;
+  top:-275%;
+}
