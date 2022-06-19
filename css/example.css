@@ -18,6 +18,7 @@ background-color: transparent;
 #vert {
             border-left: 6px solid white;
             height: 100%;
+            position:absolute;
             left: 50%;
         }
 
