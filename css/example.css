@@ -1,11 +1,21 @@
-.one {
+#biggercanvas{
 height: 100%;
 width: 100%;
 background-color: green;
-border: 5px solid white;
 }
-
-.vertical {
+#innercanvas{
+position:relative;
+height: 95%;
+width: 95%;
+top:2%;
+left:2%;
+background-color: transparent;
+  border:5px solid;
+  border-style: solid;
+  border-color:white;
+  border-spacing:25px;
+  }
+#vert {
             border-left: 6px solid white;
             height: 100%;
             position:absolute;
@@ -18,7 +28,7 @@ border: 5px solid white;
     width: 15%;
     height: 30%;
     position:relative;
-    left:41.5%;
+    left:42.3%;
     top:33%;
 border: 5px solid white;
 
