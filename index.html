@@ -13,12 +13,9 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
-img{
-    height: 100vh;
-    width:100vw;
-    
-    filter:contrast(100%);
-}
+
+
+
 
 #topleftonee {
   position: absolute;
@@ -93,9 +90,9 @@ img{
 
 #bakchodione{
 position: absolute;
-  top: 60px;
-  left: 250px;
-  font-size: 68px;
+  top: 0px;
+  left: 1300px;
+  font-size: 48px;
   height:40px;
   font-style: italic;
   font-family: 'Courier New', Courier, monospace;
@@ -120,32 +117,67 @@ position: absolute;
   padding-left: 20px;
   padding-top:10px;
 }
+
+#bookshelf #background_img {
+	width: 100%;
+	height:100%;
+	position: absolute;
+}
+#one{
+top:285px;
+left:100px;
+position: relative;
+width:100px;
+height:100px;
+}
+#two{
+top:100px;
+left:154px;
+position: relative;
+width:100px;
+height:100px;
+}
+#three{
+top:460px;
+left:50px;
+position: relative;
+width:100px;
+height:100px;
+}
+#four{
+top:290px;
+left:110px;
+position: relative;
+width:100px;
+height:100px;
+}
+#five{
+top:140px;
+left:120px;
+position: relative;
+width:100px;
+height:100px;
+}
+#six{
+top:500px;
+left:15px;
+position: relative;
+width:100px;
+height:100px;
+}
 </style>
 </head>
     
 <body>
-   
-    <div id="imagebox">
-        <img src="footballground.jpg">
-    </div>
-   
-    <div id="toplefttwo">
-        About Us  
-    </div>
-    <div id = "bakchodione">
-        <p>Game ON !!!</p>
-    </div>
-    <div id="founders">
-    </div>
-    <div id="bakchoditwo">
-    </div>
-    <div id="wannabepart">
-       Are you one of them ??? 
-    </div>
-    <div id="pageone">
-        <a href="members_name.html" target="_self">Add your name here</a>
-    </div>
-
+<div id="bookshelf">
+    <img src="footballground.jpg" id="background_img" />
+    <a href="profile_playerone.html"><img src="player1.jpg" id="one"/>
+    <a href="profile_playerone.html"><img src="player2.jpg" id="two" />
+    <a href="profile_playerone.html"><img src="player3.jpg" id="three" />
+    <a href="profile_playerone.html"><img src="player4.jpg" id="four"/>
+    <a href="profile_playerone.html"><img src="player5.jpg" id="five"/>
+    <a href="profile_playerone.html"><img src="player6.jpg" id="six"/>
+</div>
 </body>
 
 </html>
